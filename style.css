@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,100&display=swap');
+body {
+    background-color:black;
+}
+ 
+.grid {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+    border-radius: 50px;
+}
+ 
+.grid h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color:#0a9768;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+ 
+#score {
+    color:#0a9768;
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.grid #question {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+ 
+.buttons {
+    margin-top: 30px;
+}
+ 
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #0a9768;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1.5px solid #000000;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+ 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #0a9768;
+}
+ 
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+ 
+#progress {
+    color: black;
+    font-size: 18px;
+}
+
+p { 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
